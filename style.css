@@ -1,0 +1,45 @@
+:root {
+    --base: #16a0a5;
+  }
+
+body {
+    text-align: center;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #fffaf9;
+    font-family: monospace;
+}
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+canvas {
+border: 2px solid #a7a2a1;
+background-color: white;
+}
+
+.text {
+
+    font-weight: 700;
+    font-size: 1.7em;
+}
+
+.color {
+    width: 1em;
+    height: 1em;
+    border: 1px solid goldenrod;
+  
+}
+
+#insertText {
+    font-size: 2.2em;
+    font-weight: 600;
+    color: var(--base);
+}
+
+.paintColor {
+    color: var(--base);
+  
+}
